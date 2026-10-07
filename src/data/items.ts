@@ -11,7 +11,7 @@ export const ITEMS = {
     effects: [{ kind: "giant-slayer", maxBonusDamage: 0.15, maxBonusHealth: 1500 }] },
   "3508": { id: "3508", name: "Segador de Esencia", goldCost: 3050,
     stats: { attackDamage: 50, criticalStrikeChance: 0.25, abilityHaste: 20 },
-    effects: [{ kind: "spellblade", baseADRatio: 1.25, critChanceDamage: 50 }] },
+    effects: [{ kind: "spellblade", baseADRatio: 1.25, critChanceDamage: 50, cooldownSeconds: 1.5 }] },
   "6676": { id: "6676", name: "El Coleccionista", goldCost: 3000,
     stats: { attackDamage: 50, criticalStrikeChance: 0.25, lethality: 10 },
     effects: [{ kind: "execute", threshold: 0.05 }] },

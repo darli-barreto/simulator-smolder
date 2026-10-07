@@ -91,6 +91,9 @@ export interface SmolderSimulationResult extends DamageBreakdown {
   readonly instances: readonly SimulatedDamageInstance[];
   readonly effectiveArmor: number;
   readonly effectiveMagicResistance: number;
+  /** Includes resistance mitigation and applicable item amplification. */
+  readonly physicalDamageMultiplier: number;
+  readonly magicDamageMultiplier: number;
   readonly remainingHealth: number;
   readonly damageAppliedToHealth: number;
   readonly executed: boolean;

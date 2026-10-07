@@ -15,7 +15,7 @@ export interface ItemStats {
 }
 
 export type ItemEffect =
-  | { readonly kind: "spellblade"; readonly baseADRatio: number; readonly critChanceDamage: number }
+  | { readonly kind: "spellblade"; readonly baseADRatio: number; readonly critChanceDamage: number; readonly cooldownSeconds: number }
   | { readonly kind: "giant-slayer"; readonly maxBonusDamage: number; readonly maxBonusHealth: number }
   | { readonly kind: "energized"; readonly magicDamage: number }
   | { readonly kind: "execute"; readonly threshold: number };

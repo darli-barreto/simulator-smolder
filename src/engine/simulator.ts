@@ -102,6 +102,8 @@ export function simulateSmolderDamage(config: SmolderSimulationConfig): SmolderS
   return {
     ...sumDamage(instances.map((hit) => hit.damage)),
     patch: ITEM_DATA_VERSION.patch, stats, ability, instances, effectiveArmor, effectiveMagicResistance,
+    physicalDamageMultiplier: physicalMultiplier * giantSlayerMultiplier,
+    magicDamageMultiplier: magicMultiplier * giantSlayerMultiplier,
     remainingHealth: health, damageAppliedToHealth: initialHealth - health, executed, executionThreshold,
   };
 }

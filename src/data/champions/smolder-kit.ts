@@ -1,6 +1,8 @@
 /** Canonical decimal coefficients cross-checked against the 16.20 game record. */
 export const SMOLDER_KIT = {
   baseCriticalStrikeMultiplier: 2,
+  // Game record: basicAttack.mAttackCastTime; Q uses autoattack cast-time data.
+  basicAttack: { baseCastTimeSeconds: 0.25 },
   q: {
     baseDamage: [60, 70, 80, 90, 100], bonusADRatio: 1.3, critRatio: 0.75,
     stackRatio: 0.25, stackCritRatio: 1.4, thresholds: [25, 125, 225],

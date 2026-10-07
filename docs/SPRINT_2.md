@@ -2,8 +2,9 @@
 
 Implementación y verificación automatizada realizadas el **7 de octubre de
 2026**, para **Grieta del Invocador, parche 26.20 / Data Dragon 16.20.1**.
-La comprobación empírica en Practice Tool sigue pendiente; el Sprint 3 no se ha
-iniciado.
+La comprobación empírica en Practice Tool sigue pendiente. El usuario autorizó
+avanzar al Sprint 3 manteniendo esa comprobación pendiente el 7 de octubre de
+2026; véase `docs/SPRINT_3.md`.
 
 ## Tareas
 
